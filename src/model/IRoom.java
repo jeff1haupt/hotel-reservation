@@ -6,6 +6,6 @@ public interface IRoom {
     public Double getRoomPrice();
     public RoomType getRoomType();
     public boolean isFree();
-    
+
 
 }
