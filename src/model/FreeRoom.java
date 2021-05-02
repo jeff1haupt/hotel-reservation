@@ -3,12 +3,13 @@ package model;
 public class FreeRoom extends Room{
 
 
-        public FreeRoom(String roomNumber, Double roomPrice, RoomType roomType) {
-                super(roomNumber, roomPrice, roomType);
+        public FreeRoom(String roomNumber, RoomType roomType) {
+                super(roomNumber, 0.0, roomType);
         }
 
         @Override
         public String toString() {
-                return "Free room details - Room Number: " + roomNumber + "  SINGLE OR DOUBLE: " + roomType;
+                return "Free room details - Room Number: " + roomNumber + "  Price: " + roomPrice +
+                        "  SINGLE OR DOUBLE: " + roomType;
         }
 }

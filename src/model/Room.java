@@ -2,9 +2,9 @@ package model;
 
 public class Room implements IRoom {
 
-    protected String roomNumber;
-    protected Double roomPrice;
-    protected RoomType roomType;
+    String roomNumber;
+    Double roomPrice;
+    RoomType roomType;
 
     public Room(String roomNumber, Double roomPrice, RoomType roomType) {
         this.roomNumber = roomNumber;
